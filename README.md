@@ -27,6 +27,9 @@ poetry run start
 
 ``` 
 
+## License
+Licensed under the terms of GNU General Public License v3.0. See LICENSE file.
+
 # Addendum
 
 The acronym DLQ actually stands for annoying Dead Letter Queue in Apache Camel. 
