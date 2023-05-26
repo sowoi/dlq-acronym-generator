@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dlq-acronym-generator"
+version = "0.1.0"
+description = ""
+authors = ["Massoud Ahmed"]
+readme = "README.md"
+packages = [{include = "dlq_acronym_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.3.1"
+flake8 = "^6.0.0"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "dlq_acronym_generator.dlq_acronym_generator:main"
